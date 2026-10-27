@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Booking Form</title>
+</head>
+<body>
+   <!--heading--> 
+   <fieldset style="width: 50%; margin: auto; border: 1px solid black; padding: 20px;">
+   <h1 align="center">Hotel Room Booking Form</h1>
+   <form action="#" method="post" align="center">
+
+    <!--information fields-->
+    <lable for="Full Name">Full Name:</lable>
+    <input type="text" id="Fullname" name="Fullname"><br><br>
+    <lable for="email">Email:</lable>
+    <input type="text" id="Email" name="Email"><br><br>
+    <label for="Phone">Phone:</label>
+    <input type="number" id="Phone" name="Phone"><br><br>
+    <label for="Check-in Date">Check-in Date:</label>
+    <input type="date" id="checkin" name="checkin"><br><br>
+    <lable for="Checkout Date">Checkout Date:</lable>
+    <input type="date" id="Checkout Date" name="Checkout Date"><br><br>
+    <lable for="Room Type">Room Type:</lable>
+    <select id="Room Type" name="Room Type">
+        <option value="">Single room</option>
+        <option value="Single Room">Double</option>
+        <option value="Double">Delux</option>
+    </select><br><br>
+    <lable for="Number of Guest">Number of Guest:</lable>
+    <input type="number" id="Number of Guest" name="Number of Guest" min="1" max="10"><br><br>
+    <lable for="Special Requests">Special Requests:</lable><br><br>
+    <textarea id="Special Requests" name="Special Requests" rows="4" cols="50"></textarea><br><br>
+    <input type="Book Now" value="Book now" style="width: 60px;">
+    <input type="Reset Form" value="Reset Form" style="width: 70px;">
+    </fieldset>
+    </form>
+   
+</body
+</html>
